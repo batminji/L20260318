@@ -12,7 +12,9 @@ int main()
 		MyWorld.Render();
 		if (MyWorld.CheckArrived())
 		{
-			return;
+			return 0;
 		}
 	}
+
+	return 0;
 }

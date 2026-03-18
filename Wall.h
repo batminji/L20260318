@@ -1,12 +1,10 @@
 #pragma once
-class UWall
+#include "Actor.h"
+
+class AWall : public AActor
 {
 public:
-	UWall();
-	UWall(int X, int Y) : X(X), Y(Y) {};
-	~UWall();
-
-	int X;
-	int Y;
+	AWall();
+	~AWall();
 };
 

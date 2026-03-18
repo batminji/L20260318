@@ -1,12 +1,10 @@
 #pragma once
-class UFloor
+#include "Actor.h"
+
+class AFloor : public AActor
 {
 public:
-	UFloor();
-	UFloor(int X, int Y) : X(X), Y(Y) {};
-	~UFloor();
-
-	int X;
-	int Y;
+	AFloor();
+	~AFloor();
 };
 

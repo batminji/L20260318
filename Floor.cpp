@@ -1,11 +1,11 @@
 #include "Floor.h"
 
-UFloor::UFloor()
+AFloor::AFloor()
 {
 	X = 1;
 	Y = 1;
 }
 
-UFloor::~UFloor()
+AFloor::~AFloor()
 {
 }

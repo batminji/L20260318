@@ -1,13 +1,10 @@
 #pragma once
-class UMonster
+#include "Actor.h"
+
+class AMonster : public AActor
 {
 public:
-	UMonster();
-	UMonster(int X, int Y) : X(X), Y(Y) {};
+	AMonster();
 	void Move(int dx, int dy);
-	~UMonster();
-
-	int X;
-	int Y;
+	~AMonster();
 };
-

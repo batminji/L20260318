@@ -1,26 +1,24 @@
 #pragma once
-class UWall;
-class UFloor;
-class UDestination;
+class AWall;
+class AFloor;
+class AGoal;
 
-class UPlayer;
-class UMonster;
+class APlayer;
+class AMonster;
 
 class UWorld
 {
 public:
 	UWorld();
-
 	void Process(char InInput);
 	void Render();
 	bool CheckIsWall(int X, int Y);
-	bool CheckArrived();
 	~UWorld();
 
-	UWall* Walls;
-	UFloor* Floors;
-	UDestination* Destination;
-	UPlayer* Player;
-	UMonster* Monster;
+	AWall* Walls;
+	AFloor* Floors;
+	AGoal* Destination;
+	APlayer* Player;
+	AMonster* Monster;
 };
 

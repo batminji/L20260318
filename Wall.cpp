@@ -1,11 +1,11 @@
 #include "Wall.h"
 
-UWall::UWall()
+AWall::AWall()
 {
 	X = 1;
 	Y = 1;
 }
 
-UWall::~UWall()
+AWall::~AWall()
 {
 }

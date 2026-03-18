@@ -10,6 +10,9 @@ int main()
 		char Input = _getch();
 		MyWorld.Process(Input);
 		MyWorld.Render();
-		MyWorld.CheckArrived();
+		if (MyWorld.CheckArrived())
+		{
+			return;
+		}
 	}
 }
